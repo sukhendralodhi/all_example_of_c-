@@ -20,11 +20,29 @@ int main() {
   cout << num1 << endl << num2 << endl;
   */
 
+  // swap number without using third variable
+
+  int num1, num2;
+  cout << "Enter the number 1 and 2: ";
+  cin >> num1 >> num2;
+
+  cout << "Before swap: " << endl << num1 << endl << num2 << endl;
+
+  num1 = num1 + num2;
+  num2 = num1 - num2;
+  num1 = num1 - num2;
+
+  cout << "After swap: " << endl << num1 << endl << num2 << endl;
+
+  
+
   // square of given number
+  /*
   int num;
   cout << "Enter the number: ";
   cin >> num;
   cout << "Square of number: " << num * num << endl;
+  */
 
   
 }
