@@ -43,6 +43,7 @@ int main() {
   */
 
   // find number is positive or negative
+  /*
   int number;
   cin >> number;
   if (number > 0) {
@@ -52,4 +53,18 @@ int main() {
   } else {
     cout << "Number is negative\n";
   }
+  */
+
+  // Digit counter 
+
+  int num, count = 0;
+  cout << "Enter the number: ";
+  cin >> num;
+
+  while(num > 0) {
+    num = num/10;
+    ++count;
+  }
+
+  cout << "Digit = " << count;
 }
