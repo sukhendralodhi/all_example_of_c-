@@ -55,8 +55,8 @@ int main() {
   }
   */
 
-  // Digit counter 
-
+  // Digit counter
+  /*
   int num, count = 0;
   cout << "Enter the number: ";
   cin >> num;
@@ -67,4 +67,17 @@ int main() {
   }
 
   cout << "Digit = " << count;
+  */
+
+  // sum of natural numbers
+
+  int num, sum = 0;
+  cout << "Enter the number: ";
+  cin >> num;
+  int i = 1;
+  while (i <= num) {
+    sum += i;
+    ++i;
+  }
+  cout << "Sum = " << sum;
 }
